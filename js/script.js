@@ -49,10 +49,3 @@ let joke_num = Math.floor(Math.random()*21);
 
 document.getElementById('joke').innerHTML = jokes[joke_num];
 
-// time
-let date = Date()
-let ctime = date.slice(16,24)
-alert(ctime)
-let cTimeForConvert = ctime.slice(0,2)
-alert(cTimeForConvert)
-alert(cTimeForConvert-12)
