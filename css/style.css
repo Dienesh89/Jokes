@@ -32,7 +32,7 @@ header #img2{
 /* joke */
 #joke-container{
     width: 50%;
-    height: 38%;
+    height:max-content;
     border: 8px solid #9ACD32;
     border-top: none;
     margin: auto;
